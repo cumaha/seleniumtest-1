@@ -15,7 +15,7 @@ public class Sample {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\saikrishna\\Downloads\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\Karthik\\Desktop\\chromedriver_win32\\geckodriver.exe");
 
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
